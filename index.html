@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+	integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+	crossorigin="anonymous">
+
+</head>
+
+<div class="login_form">
+	<form action="#" class="form">
+		<h1 class="form_title"> Log In </h1>
+
+		<div class="form_div">
+			<input type="text" class="form_input" placeholder=" ">
+			<label class="form_label">Email</label>
+		</div>
+
+		<div class="form_div">
+			<input type="password" class="form_input" placeholder=" ">
+			<label class="form_label">Password</label>
+		</div>
+
+		<div id="captcha" class="form_div">
+			<div class="preview"></div>
+			<div class="captcha_form"> 
+				<input type="text" id="captcha_form" class="form_input_captcha" placeholder=" ">
+				<label class="form_label_captcha">Enter Captcha</label>
+				<button class="captcha_refersh">
+					<i class="fa fa-refresh"></i>
+				</button>
+			</div>
+		</div>
+
+		<input type="submit" class="form_button" value="Log In">
+	</form>
+</div>
+
+<script src="java.js"></script>
